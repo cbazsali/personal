@@ -1,0 +1,27 @@
+body {
+  max-width: 70ch;     /* or 960px */
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+header h1 {
+	font-size: 2.2em;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li::after {
+  content: " |";
+}
+
+nav ul li:last-child::after {
+  content: "";
+}
+
