@@ -11,6 +11,7 @@ START_MARK = "<!-- Blog entries start here -->"
 END_MARK   = "<!-- Blog entries end here -->"
 
 DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
+TITLE_RE = re.compile(r"^\s*##\s+(.+?)\s*$")
 
 def has_pandoc() -> bool:
     try:
@@ -44,6 +45,23 @@ def markdown_to_html(md: str, use_pandoc: bool) -> str:
         out.append("<p>" + escape_html(para).replace("\n", "<br>\n") + "</p>")
     return "\n".join(out)
 
+def extract_title_and_body(lines_after_header):
+    """
+    Look for the first '## ' header in the body and treat it as the post title.
+    Remove that title line from the body so it doesn't render twice.
+    Returns (title_or_none, remaining_lines).
+    """
+    title = None
+    remaining = []
+    for line in lines_after_header:
+        if title is None:
+            m = TITLE_RE.match(line)
+            if m:
+                title = m.group(1)
+                continue
+        remaining.append(line)
+    return title, remaining
+
 def parse_blog_posts():
     posts = []
     for f in sorted(DIARY_DIR.glob("*.md")):
@@ -65,19 +83,21 @@ def parse_blog_posts():
         date_s = m.group(1)
         datetime.strptime(date_s, "%Y-%m-%d")  # validate
 
-        body_md = "\n".join(lines[1:]).lstrip("\n")
-        posts.append((date_s, body_md))
+        title, body_lines = extract_title_and_body(lines[1:])
+        body_md = "\n".join(body_lines).lstrip("\n")
+        posts.append((date_s, title, body_md))
 
     posts.sort(reverse=True, key=lambda x: x[0])  # newest first
     return posts
 
 def build_entries_html(posts, use_pandoc: bool) -> str:
     chunks = []
-    for date_s, body_md in posts:
+    for date_s, title, body_md in posts:
         body_html = markdown_to_html(body_md, use_pandoc)
+        title_html = f'\n  <h3 class="blog-title">{escape_html(title)}</h3>' if title else ''
         chunks.append(
             f'''<article class="blog-entry" id="{date_s}">
-  <h2 class="blog-date">{date_s}</h2>
+  <h2 class="blog-date">{date_s}</h2>{title_html}
   <div class="blog-body">
 {body_html}
   </div>
