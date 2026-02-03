@@ -94,15 +94,15 @@ def build_entries_html(posts, use_pandoc: bool) -> str:
     chunks = []
     for date_s, title, body_md in posts:
         body_html = markdown_to_html(body_md, use_pandoc)
-        title_html = f'\n  <h3 class="blog-title">{escape_html(title)}</h3>' if title else ''
-        chunks.append(
-            f'''<article class="blog-entry" id="{date_s}">
-  <h2 class="blog-date">{date_s}</h2>{title_html}
-  <div class="blog-body">
+    title_html = f'\n  <h2 class="blog-title">{escape_html(title)}</h2>' if title else ''
+    chunks.append(
+        f'''<article class="blog-entry" id="{date_s}">
+<h1 class="blog-date">{date_s}</h1>{title_html}
+<div class="blog-body">
 {body_html}
-  </div>
+</div>
 </article>'''
-        )
+    )
     return "\n\n".join(chunks)
 
 def replace_between_markers(full_text: str, new_middle: str) -> str:
