@@ -4,7 +4,7 @@
 <title>Colin Bazsali – Blog</title>
 <link>https://colinbazsali.com/</link>
 <description>Updates from Colin Bazsali.</description>
-<lastBuildDate>Wed, 04 Feb 2026 00:35:09 +0000</lastBuildDate>
+<lastBuildDate>Wed, 04 Feb 2026 01:48:14 +0000</lastBuildDate>
 <atom:link href="https://colinbazsali.com/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
 <item>
 <title>Blogging</title>
@@ -13,16 +13,16 @@
 <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
 <description>Blogging</description>
 <content:encoded><![CDATA[
-<p>Hello. I thought I’d set up a blog here. It was fun setting it up
-withough any services like Blogger or Squarespace. However, I did use
-ChatGPT quite liberally withe the python scripts needed to hook it up to
-my vimwiki diary.</p>
-<p>There is no comment section by design. But I do invite you to email
-me with any responses you feel like making, whether you want to comment
-on something I wrote, ask questions, or respectfully disagree and start
-a private conversation. I’d really like to hear from you, but I’m
-keeping it old school on purpose. You know…so it’s just between you and
-me.</p>
+<p>I thought I’d set up a blog here. It was fun setting it up without
+any services like Blogger or Squarespace. However, I did use ChatGPT
+quite liberally with the python scripts needed to hook it up to my
+vimwiki diary.</p>
+<p>There is no comment section, and that is by design. But I do invite
+you to email me with any responses you feel like making, whether you
+want to comment on something I wrote, ask questions, or respectfully
+disagree and start a private conversation. I’d really like to hear from
+you, but I’m keeping it old school on purpose. You know…so it’s just
+between you and me.</p>
 ]]></content:encoded>
 </item>
 </channel>
