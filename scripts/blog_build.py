@@ -101,7 +101,6 @@ def build_entries_html(posts, use_pandoc: bool) -> str:
 <div class="blog-body">
 {body_html}
 </div>
-<hr/>
 </article>'''
     )
     return "\n\n".join(chunks)

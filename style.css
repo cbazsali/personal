@@ -28,3 +28,11 @@ nav ul li:last-child::after {
 time {
 	font-style: italic;
 }
+
+article::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #bbb;
+  margin: 2.5rem 0;
+}
+
