@@ -4,15 +4,53 @@
 <title>Colin Bazsali – Blog</title>
 <link>https://colinbazsali.com/blog.html</link>
 <description>Updates from Colin Bazsali.</description>
-<lastBuildDate>Sat, 07 Mar 2026 17:55:31 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Mar 2026 20:54:53 +0000</lastBuildDate>
 <atom:link href="https://colinbazsali.com/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
 <item>
-<title>Added comments to blog</title>
-<link>https://colinbazsali.com/blog/2026-03-07-added-comments-to-blog.html</link>
-<guid isPermaLink="true">https://colinbazsali.com/blog/2026-03-07-added-comments-to-blog.html</guid>
+<title>Strata</title>
+<link>https://colinbazsali.com/blog/2026-03-07-strata.html</link>
+<guid isPermaLink="true">https://colinbazsali.com/blog/2026-03-07-strata.html</guid>
 <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-<description>Added comments to blog</description>
+<description>Strata</description>
 <content:encoded><![CDATA[
+<p>I recently finished the book <em>Strata: Stories from Deep Time</em>
+by Laura Poppick, which was published last year. I’ve been fascinated by
+geology ever since I had a rock collection when I was a kid. Today, it’s
+the incredible age of rocks and strata that captures my imagination the
+most: the concept of deep time has amazed, humbled, and comforted me
+since I first read <em>Time’s Arrow, Time’s Cycle: Myth and Metaphor in
+the Discovery of Geological Time</em> by Stephen Jay Gould ten years
+ago.</p>
+<p>Since then, part of me has longed to be an amateur geologist, with a
+little hammer and sample bags in my field kit and a magnifying lens
+dangling from my neck as I examine roadcuts on highways or outcrops deep
+in Wisconson forests, making measurements and observations in little
+notebooks. I have made some expeditions to look at interesting rock
+formations like the Van Hise Rock, the 1.7 billion year-old monolith
+near Rock Springs, WI, or to walk on the waves of the ancient seafloor
+at Devil’s Lake.</p>
+<p>What I find comforting about deep time is thought that even if we
+succeed in heating the earth so the ice caps and glaciers all melt and
+the oceans desalinate and flood the continents, causing unimaginable
+harm to human civilization, it is likely to be only one episode in the
+story of earth, and a relatively insignificant one at that. Besides
+total nuclear annihilation, life will persist on Earth without us and
+the planet will adjust and continue as it always has. The harm we are
+doing is mostly to ourselves and the lifeforms unlucky enough to share
+the planet with us at this geological moment. But after us, the earth
+will go on; life will change and adapt, as it always has to the many
+catastrophes that have already occurred here.</p>
+<p>But I can’t help but think about what the physicist Brian Cox said,
+after reasoning that we may currently be the only form of intelligent
+life in our galaxy and what a loss it would be to the existence of
+meaning if we destroyed ourselves: “Meaning is a property of
+intelligence…” and therefore a galaxy without intelligent life would be
+“a meaningless galaxy”. It is therefore our responsibility to the cosmos
+that we preserve ourselves so that part of the universe can continue to
+“know itself,” as Carl Sagan put it.</p>
+<p>But if we do make our planet uninhabitable for humans, at least
+Planet Earth will probably have other chances to try again.</p>
+<h2 id="added-comments-to-blog">Added comments to blog</h2>
 <p>I just added a public comments function to my blog, to make it easier
 for people to share thoughts and reactions without having to write an
 email to me. It uses Github’s Giscus, which means to make a comment, you
