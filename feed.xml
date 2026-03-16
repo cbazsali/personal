@@ -4,8 +4,36 @@
 <title>Colin Bazsali – Blog</title>
 <link>https://colinbazsali.com/blog.html</link>
 <description>Updates from Colin Bazsali.</description>
-<lastBuildDate>Mon, 16 Mar 2026 05:31:34 +0000</lastBuildDate>
+<lastBuildDate>Mon, 16 Mar 2026 18:14:41 +0000</lastBuildDate>
 <atom:link href="https://colinbazsali.com/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
+<item>
+<title>Visiting from Facebook?</title>
+<link>https://colinbazsali.com/blog/2026-03-16-visiting-from-facebook.html</link>
+<guid isPermaLink="true">https://colinbazsali.com/blog/2026-03-16-visiting-from-facebook.html</guid>
+<pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+<description>Visiting from Facebook?</description>
+<content:encoded><![CDATA[
+<p>Are you reading this because you saw the link to my website on
+Facebook? If so, please like or comment and say hi!</p>
+<p>If you’re worried about having to get a Github account: it’s free and
+easy and won’t inconvenience you. If you don’t know what Github is, it’s
+a tool used by web developers to share their code, work in teams, and do
+all sorts of techie things. But you don’t have to be a techie to get an
+account.</p>
+<p>I used it for my blog because it is free, respected, and not owned by
+Meta or X or Google. It’s an open-source too for open-source people.</p>
+<h2 id="rss">RSS</h2>
+<p>If you want to be notified of blog entries, think about subscribing
+to my RSS feed. If you don’t know about RSS, here’s nice, short <a
+href="https://www.nps.gov/feeds/rss-help.htm">explanation and
+tutorial</a>. I use the newsboat RSS reader in terminal, but there are
+plenty of options, like Feedly.</p>
+<p>There might even be a way to make an RSS reader send you email
+notifications. I haven’t investigated it, but there’s probably a way, so
+you don’t have to go to the reader itself unless there are new articles
+to read.</p>
+]]></content:encoded>
+</item>
 <item>
 <title>Brother Mine</title>
 <link>https://colinbazsali.com/blog/2026-03-15-brother-mine.html</link>
