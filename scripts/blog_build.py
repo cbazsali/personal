@@ -90,14 +90,15 @@ def slugify(text: str) -> str:
     text = re.sub(r"-+", "-", text).strip("-")
     return text or "post"
 
+from typing import Optional
 
-def post_filename(date_s: str, title: str | None) -> str:
+def post_filename(date_s: str, title: Optional[str]) -> str:
     if title:
         return f"{date_s}-{slugify(title)}.html"
     return f"{date_s}.html"
 
 
-def post_url(date_s: str, title: str | None) -> str:
+def post_url(date_s: str, title: Optional[str]) -> str:
     return f"blog/{quote(post_filename(date_s, title))}"
 
 

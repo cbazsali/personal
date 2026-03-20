@@ -5,6 +5,7 @@ import subprocess
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from urllib.parse import quote
+from typing import Optional
 
 DIARY_DIR = Path.home() / "wiki" / "diary"
 OUT_FEED  = Path.home() / "sites" / "personal" / "feed.xml"
@@ -60,13 +61,13 @@ def slugify(text: str) -> str:
     return text or "post"
 
 
-def post_filename(date_s: str, title: str | None) -> str:
+def post_filename(date_s: str, title: Optional[str]) -> str:
     if title:
         return f"{date_s}-{slugify(title)}.html"
     return f"{date_s}.html"
 
 
-def post_link(date_s: str, title: str | None) -> str:
+def post_link(date_s: str, title: Optional[str]) -> str:
     return f"https://colinbazsali.com/blog/{quote(post_filename(date_s, title))}"
 
 
