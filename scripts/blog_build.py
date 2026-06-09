@@ -203,7 +203,7 @@ def parse_one_file(f: Path, use_pandoc: bool):
     excerpt = first_nonempty_paragraph_text(body_html)
     url = post_url(date_s, title)
 
-    display_title = f"{date_s} -- {title}" if title else date_s
+    display_title = f"{date_s} —  {title}" if title else date_s
 
     return {
         "date": date_s,
