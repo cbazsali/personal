@@ -4,8 +4,32 @@
 <title>Colin Bazsali – Blog</title>
 <link>https://colinbazsali.com/blog.html</link>
 <description>Updates from Colin Bazsali.</description>
-<lastBuildDate>Mon, 23 Nov 2026 03:18:09 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 03:54:12 +0000</lastBuildDate>
 <atom:link href="https://colinbazsali.com/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
+<item>
+<title>Debian console computer</title>
+<link>https://colinbazsali.com/blog/2026-11-22-debian-console-computer.html</link>
+<guid isPermaLink="true">https://colinbazsali.com/blog/2026-11-22-debian-console-computer.html</guid>
+<pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+<description>Debian console computer</description>
+<content:encoded><![CDATA[
+<p>Brother mine! Our school upgraded our Chromebooks this month and gave
+us the offer to buy our old ones for $50. I took them up on their offer,
+and this weekend I spent much of my time converting it into a Linux CLI
+machine–that is, Linux with only the command-line-interface. No,
+graphics, no windows, just direct access to the console.</p>
+<p>Not suprisingly, there are some serious limitations, but that’s the
+point. When I use this machine, I have no choice but to use all text
+commands. I can write in my wiki, update my website and blog, check RSS
+feeds, read and write emails, access BBS’s, and even access the web
+through text-only browsers. So far, that’s about as much as I’ve done.
+I’ve spend most of my time today tweaking color schemes. Almost
+there.</p>
+<p>Another serious limitation is I can’t watch or listen to your
+compositions on it. I may find a way to listen, but not watch. For that
+I’ll have to switch to the Ubuntu laptop.</p>
+]]></content:encoded>
+</item>
 <item>
 <title>Leaving a band</title>
 <link>https://colinbazsali.com/blog/2026-11-19-leaving-a-band.html</link>
